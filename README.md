@@ -1,0 +1,6 @@
+# GraphBU: A Bottom-up Graph Neural Network for Expression Solving  
+  Expression-solving seeks to find satisfactory solutions for a given expression within critical mathematical computation.Recent advancements in deep learning have showcased the efficacy of
+sequence-to-sequence neural networks in simple expression-solving tasks.However, the inability of sequence methods to extract structural information from expressions limits the applicability in more
+complex scenarios.Distinguished from strings, graphs serve as an efficient representation format for expressions, prompting researchers to explore graph-based methodologies for expression solving. Graphto-sequence methods have been proposed to enhance the computation of complex expressions. Nevertheless, many graph-based approaches fail to adequately address the spatial computational relationships between nodes and their neighbors within expressions.To
+effectively utilize graph information, this paper introduces a novel bottom-up graph neural network that efficiently extracts structural information from expression graphs. Rigorously evaluated across three
+mathematical tasks and four baseline experimental scenarios, the results confirm that our method excels at uncovering hidden structural  information and advancing mathematical reasoning.
